@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gotailwindcss/tailwind"
-	"github.com/gotailwindcss/tailwind/twembed"
-	"github.com/gotailwindcss/tailwind/twpurge"
+	"github.com/jackmerrill/tailwind-go"
+	"github.com/jackmerrill/tailwind-go/twembed"
+	"github.com/jackmerrill/tailwind-go/twpurge"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 
@@ -31,7 +31,7 @@ import (
 // - option to print all allow/disallow possibilities?
 
 var (
-	app = kingpin.New("gotailwindcss", "Go+TailwindCSS tools")
+	app = kingpin.New("tailwindgo", "Go+TailwindCSS tools")
 	v   = app.Flag("verbose", "Print verbose output").Short('v').Bool()
 
 	build          = app.Command("build", "Build CSS output")
