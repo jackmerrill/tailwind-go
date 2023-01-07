@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gotailwindcss/tailwind"
-	"github.com/gotailwindcss/tailwind/twembed"
-	"github.com/gotailwindcss/tailwind/twpurge"
+	"github.com/jackmerrill/tailwind-go"
+	"github.com/jackmerrill/tailwind-go/twembed"
+	"github.com/jackmerrill/tailwind-go/twpurge"
 	"github.com/tdewolff/minify/v2"
 	"github.com/tdewolff/minify/v2/css"
 )

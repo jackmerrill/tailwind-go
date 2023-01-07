@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gotailwindcss/tailwind/twembed"
-	"github.com/gotailwindcss/tailwind/twhandler"
+	"github.com/jackmerrill/tailwind-go/twembed"
+	"github.com/jackmerrill/tailwind-go/twhandler"
 )
 
 func TestHandler(t *testing.T) {

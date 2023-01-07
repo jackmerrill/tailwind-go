@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 package main
@@ -7,8 +8,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/gotailwindcss/tailwind/twfiles"
-	"github.com/gotailwindcss/tailwind/twpurge"
+	"github.com/jackmerrill/tailwind-go/twfiles"
+	"github.com/jackmerrill/tailwind-go/twpurge"
 )
 
 // read from upstream folder and build copy of tailwindcss embedded in this project

@@ -12,7 +12,7 @@ import (
 	"sync"
 
 	"github.com/cespare/xxhash"
-	"github.com/gotailwindcss/tailwind"
+	"github.com/jackmerrill/tailwind-go"
 )
 
 // New returns a Handler. TODO explain args
